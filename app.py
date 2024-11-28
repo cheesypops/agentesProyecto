@@ -33,7 +33,7 @@ glove = load_glove_vectors_from_pickle('agentesProyecto\glove_vectors.pkl')
 # variables para el modelo de emociones
 input_shape = (96, 96, 3)
 #modelo_path_img = "./emotion_recognition_model_V8.keras"
-optimezed_model_img_path = "agentesProyecto\emotion_recognition_model_V8.tflite"
+optimezed_model_img_path = "agentesProyecto\modelo_sentiment_emotion_img_last.tflite"
 optimized_model_text_path = "agentesProyecto\modelo_sentiment_emotion_txt_9.tflite"
 
 
