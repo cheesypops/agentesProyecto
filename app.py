@@ -28,7 +28,7 @@ def load_glove_vectors_from_pickle(file_path):
         return pickle.load(f)
     
 # Cargar los vectores de GloVe desde el archivo binario
-glove = load_glove_vectors_from_pickle('glove_vectors.pkl')
+glove = load_glove_vectors_from_pickle('glove_vectors4.pkl')
 
 # variables para el modelo de emociones
 input_shape = (96, 96, 3)
