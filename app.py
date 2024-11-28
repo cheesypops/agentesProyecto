@@ -28,13 +28,13 @@ def load_glove_vectors_from_pickle(file_path):
         return pickle.load(f)
     
 # Cargar los vectores de GloVe desde el archivo binario
-glove = load_glove_vectors_from_pickle('glove_vectors.pkl')
+glove = load_glove_vectors_from_pickle('glove_vectors4.pkl')
 
 # variables para el modelo de emociones
 input_shape = (96, 96, 3)
 #modelo_path_img = "./emotion_recognition_model_V8.keras"
 optimezed_model_img_path = "modelo_sentiment_emotion_img_last.tflite"
-optimized_model_text_path = "modelo_sentiment_emotion_txt_9.tflite"
+optimized_model_text_path = "modelo_sentiment_emotion_txt_11.tflite"
 
 
 # cntexto para recibir recomendaciones  
