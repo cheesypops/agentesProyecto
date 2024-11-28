@@ -11,10 +11,14 @@ import numpy as np
 import cv2
 from nltk.tokenize import word_tokenize
 import pickle
+from dotenv import load_dotenv
+
+# Cargar las variables de entorno desde el archivo .env
+load_dotenv()
 
 app = Flask(__name__)
 
-OPEN_IA_KEY = ""
+OPEN_IA_KEY = os.getenv('OPEN_AI_KEY')
 
 # instancia del cliente de OpenIA
 client = OpenAI(api_key = OPEN_IA_KEY)
